@@ -48,7 +48,7 @@ module ComfyImprint
 
       # Only allow a trusted parameter "white list" through.
       def contact_params
-        params[:contact]
+        params.require(:contact).permit(:name, :email, :phone, :url, :company, :is_subscribed, :message)
       end
   end
 end
