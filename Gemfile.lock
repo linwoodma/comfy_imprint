@@ -4,7 +4,7 @@ PATH
     comfy_imprint (0.0.14)
       haml (~> 4.0.5)
       kaminari (~> 0.15.1)
-      rails (~> 4.1.0)
+      rails (~> 4.1.4)
       simple_form (~> 3.0)
 
 GEM
